@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CE3S cloud MigrationSandbox",
+            "request": "launch",
+            "type": "al",
+            "tenant": "18b213c8-c059-4d15-b940-7bfda2825390",
+            "environmentType": "Sandbox",
+            "environmentName": "MigrationSandbox",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync",
+            "authentication": "AAD"
+        },
+        {
+            "name": "CE3S cloud MigrationSave081822",
+            "request": "launch",
+            "type": "al",
+            "tenant": "18b213c8-c059-4d15-b940-7bfda2825390",
+            "environmentType": "Sandbox",
+            "environmentName": "MigrSandBkup122722",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync",
+            "authentication": "AAD"
+        }
+    ]
+}
